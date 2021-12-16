@@ -1,12 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*__________*/
+/*__________*/
+/*__________*/
 
 html, body {
-    height: 100%;
+    /* height: 100%; */
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(Images/chocolate_background_main.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(Images/chocolate_background_main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
-    overflow: hidden;
+    font-family: 'Ropa Sans', sans-serif;
+    background-attachment:fixed;
+}
+
+.mainNav {
+    /* background-color: #22040071; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainNav ul {
+    display: flex;
+    font-size:2em;
+}
+
+.navItem {
+    margin-right: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navLogo {
+    width: 8%;
+    height: auto;
+    padding: 0.5%;
+    margin-left: 20px;
+}
+
+.homeHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.mainHeading {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size:6em;
+    text-align: center;
 }
