@@ -66,8 +66,9 @@ body {
     flex-direction: column;
 }
 
+
+/* Nav bar styles */
 .mainNav {
-    /* background-color: #22040071; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +80,6 @@ body {
 }
 
 .navItem {
-    /* margin-right: 50px; */
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -88,7 +88,6 @@ body {
 
 .navItem:hover {
     transition: 0.2s;
-    /* background-color:#ffffff36; */
     color: #F2CB30;
 }
 
@@ -99,6 +98,7 @@ body {
     margin-left: 20px;
 }
 
+/* Main content styles */
 main {
     flex-grow: 1;
     display: flex;
@@ -122,13 +122,12 @@ main {
     text-transform: uppercase;
     font-size: 7vw;
     text-align: right;
-    /* margin-right: 20px; */
 }
 
 .interestForm {
     background-color: #ffffff;
     max-width: 350px;
-    min-width: 300px;
+    min-width: 260px;
     border-radius: 30px;
     height: 450px;
 }
@@ -168,7 +167,7 @@ main {
 .formButton {
     font-weight: bold;
     width: 250px;
-    margin: 0 35px 20px ;
+    margin: 0 35px 20px;
     height: 45px;
     padding: 6px 15px;
     border-radius: 5px;
@@ -186,4 +185,54 @@ main {
 
 .formButton:active {
     transform: translateY(1px);
+}
+
+
+@media (max-width: 768px) {
+    .navLogo {
+        width: 12%;
+        height: auto;
+        padding: 0.4%;
+        margin-left: 20px;
+    }
+    
+    .mainNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3vh;
+    }
+
+    .homeHeading {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homeHeadingItem {
+        flex-basis: 50%;
+        margin: 5px;
+    }
+
+    .mainHeadingText {
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 9vw;
+        text-align: center;
+    }
+
+    .interestForm {
+        background-color: #ffffff;
+        max-width: 350px;
+        min-width: 260px;
+        border-radius: 30px;
+        height: 450px;
+    }
+
+    .formHeader {
+        font-size: 2.5vh;
+        width: 90%;
+        text-align: center;
+        margin: 15px 0px;
+    }
+
 }
