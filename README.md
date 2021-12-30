@@ -12,6 +12,7 @@ Small project to practice my HTML & CSS! No JS at all yet.
 - Information on image in gallery once hovered.
 - Additional media queries; need to make this look good on mobile.
 - Footer
+- Sticky nav bar
 
 ## Gallery
 ![Choc-a-lot Landing Page Image](Images/Captures/Choc-a-lot_overview.gif)
