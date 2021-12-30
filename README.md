@@ -9,6 +9,7 @@ Small project to practice my HTML & CSS! No JS at all yet.
 - Mock pop up once user enters info and signs up for newsletter.
 - Information on image in gallery once hovered.
 - Additional media queries; need to make this look good on mobile.
+- Footer
 
 ## Gallery
 ![Choc-a-lot Landing Page Image](Images/Captures/Choc-a-lot_overview.gif)
