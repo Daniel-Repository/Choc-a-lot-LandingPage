@@ -1,5 +1,7 @@
 # Choc-a-lot Landing Page
 
+https://krydan.github.io/Choc-a-lot-LandingPage/
+
 Very basic landing page for a fictional chocolate treats provider.
 
 Small project to practice my HTML & CSS! No JS at all yet.
