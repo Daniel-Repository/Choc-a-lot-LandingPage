@@ -103,15 +103,7 @@ body {
 /* --------------------------- */
 /* Main content styles */
 /* --------------------------- */
-main {
-    /* flex-grow: 1; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-}
-
-.homeHeading {
+.notFoundSection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,105 +111,24 @@ main {
     margin-bottom: 5%;
 }
 
-.homeHeadingItem {
-    flex-basis: 50%;
-    margin: 20px;
-}
-
-.mainHeadingText {
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-size: 7vw;
-    text-align: right;
-}
-
-.interestForm {
-    background-color: #ffffff;
-    max-width: 350px;
-    min-width: 260px;
-    border-radius: 30px;
-    height: 450px;
-}
-
-.formHeader {
-    font-size: 3vh;
-    width: 90%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.interestForm form {
+.notFoundContent {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100%;
-}
-
-.interestForm form input {
-    font-weight: bold;
-    width: 220px;
-    margin: 0 35px 20px ;
-    height: 35px;
-    padding: 6px 15px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background: #F6F7F9;
-    color: #7c8797;
-    font-size: 14px;
-}
-
-.formButton {
-    font-weight: bold;
-    width: 250px;
-    margin: 0 35px 20px;
-    height: 45px;
-    padding: 6px 15px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    background: #c4626c;
-    color: white;
-    font-size: 14px;
-}
-
-.formButton:hover {
-    cursor: pointer;
-    background: #db7b85;
-}
-
-.formButton:active {
-    transform: translateY(1px);
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-.galleryHeading {
-    text-decoration: none;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-size: 3vw;
-    flex-basis: 100%;
-    margin-bottom: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
     text-align: center;
+    background-color: #ffffff;
+    max-width: 600px;
+    min-width: 200;
+    border-radius: 30px;
+    height: 250px;
 }
 
-.galleryPic {
-    width: 25%;
-    margin: 0px 30px 30px 30px;
-    transition: 0.5s;
+.notFoundContent p {
+    font-size: 40px;
 }
 
-.galleryPic:hover {
-    transform: scale(1.1);
-    
-}
 
 /* --------------------------- */
 /* Alternative layout when screen goes below a width of 768px */
@@ -235,38 +146,6 @@ main {
         justify-content: space-between;
         align-items: center;
         font-size: 3vh;
-    }
-
-    .homeHeading {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .homeHeadingItem {
-        flex-basis: 50%;
-        margin: 5px;
-    }
-
-    .mainHeadingText {
-        color: #FFFFFF;
-        text-transform: uppercase;
-        font-size: 10vw;
-        text-align: center;
-    }
-
-    .interestForm {
-        background-color: #ffffff;
-        max-width: 350px;
-        min-width: 260px;
-        border-radius: 30px;
-        height: 450px;
-    }
-
-    .formHeader {
-        font-size: 2.5vh;
-        width: 90%;
-        text-align: center;
-        margin: 15px 0px;
     }
 
 }
